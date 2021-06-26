@@ -35,6 +35,7 @@
 #include <uk/arch/limits.h> /* for __PAGE_SIZE */
 #include <string.h> /* for memset */
 #include <tinyalloc.h>
+#include <inttypes.h> /* for uintptr_t */
 
 static void *uk_tinyalloc_malloc(struct uk_alloc *a, size_t size)
 {
